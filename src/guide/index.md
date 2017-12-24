@@ -1,17 +1,17 @@
 ---
-title: Catalog
+title: 目录
 type: guide
 order: 0
 ---
 
-COVERS RXJS 5
+本书覆盖 RXJS 5
 
-PAUL P. DANIELS LUIS ATENCIO
+PAUL P. DANIELS LUIS ATENCIO 著
 
-FOREWORD BY BEN LESH
+BEN LESH 作序
 
 
-## UNDERSTANDING STREAMS
+## 理解流
 
 In this first part of the book, you’ll get your feet wet with streams by discover- ing the stream as the missing data contemporary to the iterable.
 
@@ -22,14 +22,14 @@ Chapter 1 lays out the problem with the state of asynchrony in JavaScript and wh
 * It’s about time you used RxJS
 
 
-## OBSERVABLES IN PRACTICE
+## observables 实践
 
 * Applied reactive streams
 * Coordinating business processes
 * Error handling with RxJS
 
 
-## MASTERING RXJS
+## 精通 RxJS
 
 * Heating up observables
 * Toward testable, reactive programs
