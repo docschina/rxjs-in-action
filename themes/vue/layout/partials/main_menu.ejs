@@ -1,1 +1,4 @@
-<li><a href="<%- url_for("/guide/") %>" class="nav-link<%- page.path.match(/guide/) ? ' current' : '' %>">指南</a></li>
+<li>
+<%- partial('partials/learn_dropdown') %>
+<%- partial('partials/about_dropdown') %>
+<li>

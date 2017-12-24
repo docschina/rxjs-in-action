@@ -1,0 +1,10 @@
+<li class="nav-dropdown-container learn">
+  <a class="nav-link<%- page.path.match(/guide/) ? ' current' : '' %>">学习 RxJS</a><span class="arrow"></span>
+  <ul class="nav-dropdown">
+    <li><ul>
+      <li><a href="<%- url_for("/catalog/") %>" class="nav-link<%- page.path.match(/catalog/) ? ' current' : '' %>">目录</a></li>
+      <li><a href="<%- url_for("/guide/") %>" class="nav-link<%- page.path.match(/guide/) ? ' current' : '' %>">内容</a></li>
+      <li><a href="<%- url_for("/about/") %>" class="nav-link<%- page.path.match(/about/) ? ' current' : '' %>">关于</a></li>
+    </ul></li>
+  </ul>
+</li>
